@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Add Items</title>
 </head>
-<?php require 'views/partials/buttons.php'; ?>
+<?php require base_path('views/partials/buttons.php'); ?>
 <body>
     <h1>Add Items</h1>
         <form method="POST" action="/create">

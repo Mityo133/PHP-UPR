@@ -9,7 +9,7 @@
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 </head>
 <body>
-     <?php require 'views/partials/buttons.php'; ?>
+     <?php require base_path('views/partials/buttons.php'); ?>
          <h1>Welcome to about page</h1>  
            <?php foreach ($filterd as $car): ?>
                <h1><?php echo $car["model"]; ?></h1>

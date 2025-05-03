@@ -1,17 +1,16 @@
-<?php 
-class Validator{
-    public static function string($strin){
-        return strlen($strin) ===0;
-    }
-    public static function len($body,$min =0,$max = 300)
-{
-    return strlen(trim($body)) >= $min && strlen($body);
-
-}
-    public static function email($value){
-    filter_var($value,FILTER_VALIDATE_EMAIL);
-}
-
-}
-
-?>
+<?php
+ 
+ class Validator
+ {
+     public static function string($value, $min = 1, $max = INF)
+     {
+         $value = trim($value);
+ 
+         return strlen($value) >= $min && strlen($value) <= $max;
+     }
+ 
+     public static function email($value)
+     {
+         return filter_var($value, FILTER_VALIDATE_EMAIL);
+     }
+ }

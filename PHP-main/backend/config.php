@@ -3,9 +3,9 @@ return[
 
         "database"=>[
         "host" => "localhost",
-        "dbname" => "exampleapp",
+        "dbname" => "php",
         "username" =>"root",
-        "password"=> "123456",
+        "password"=> "Mityo123@",
         "charset" => "utf8mb4",
         "port" => 3306]];
 ?>

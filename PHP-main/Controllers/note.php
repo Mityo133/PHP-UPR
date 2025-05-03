@@ -1,6 +1,6 @@
 <?php 
 
-$config = require "backend/config.php";
+$config = require base_path("backend/config.php");
 $data = new Database($config['database']);
 $id = $_GET['id'];
 $user = 1;

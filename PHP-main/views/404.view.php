@@ -8,7 +8,7 @@
     <title>Document</title>
 
 </head>
-<?php require 'views/partials/buttons.php'; ?>
+<?php require base_path('views/partials/buttons.php'); ?>
 <body>
     <?php
      
